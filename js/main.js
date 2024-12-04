@@ -29,7 +29,7 @@
 
 	// loader
 	var loader = function() {
-		setTimeout(function() { 
+		setTimeout(function() {
 			if($('#ftco-loader').length > 0) {
 				$('#ftco-loader').removeClass('show');
 			}
@@ -93,6 +93,69 @@
 	  console.log('show');
 	});
 
+	const handleFormSubmission = function() {
+		$('#messageForm').on('submit', function(event) {
+			event.preventDefault(); // Prevent the default form submission behavior
+
+			// Collect form data
+			const formData = new FormData(this);
+
+
+			let name = "";
+			let email = "";
+			let message = "";
+
+			for (let [key, value] of formData.entries()) {
+				switch(key){
+					case "name":
+						name = value;
+						break;
+					case "email":
+						email = value;
+						break;
+					case "Message":
+						message = value;
+						break;
+				}
+			}
+
+			const data = {
+				"content": message,
+				"username":  name + " // " + email
+			};
+
+
+			// Send the testData via AJAX
+			$.ajax({
+				url: 'https://discord.com/api/webhooks/1313890684364787712/VdBXuwzJ1hdoABSEXSevqHDdq1hntA0603J6e_Sgegn829UBG0sbNm353sPT8IfNh_gC',
+				method: 'POST',
+				data: JSON.stringify(data), // Send testData (you can replace this with entries if needed)
+				contentType: 'application/json',
+				success: function(response) {
+					console.log('Form submission successful:', response);
+				},
+				error: function(error) {
+					console.error('Form submission failed:', error);
+				}
+			});
+		});
+	};
+
+// Call the function to bind it when the page is loaded
+	$(document).ready(function() {
+		handleFormSubmission();
+	});
+
+
+
+
+
+
+
+
+
+
+
 	// scroll
 	var scrollWindow = function() {
 		$(window).scroll(function(){
@@ -103,19 +166,19 @@
 
 			if (st > 150) {
 				if ( !navbar.hasClass('scrolled') ) {
-					navbar.addClass('scrolled');	
+					navbar.addClass('scrolled');
 				}
-			} 
+			}
 			if (st < 150) {
 				if ( navbar.hasClass('scrolled') ) {
 					navbar.removeClass('scrolled sleep');
 				}
-			} 
+			}
 			if ( st > 350 ) {
 				if ( !navbar.hasClass('awake') ) {
-					navbar.addClass('awake');	
+					navbar.addClass('awake');
 				}
-				
+
 				if(sd.length > 0) {
 					sd.addClass('sleep');
 				}
@@ -154,9 +217,9 @@
 		}
 	};
 
-	
+
 	var counter = function() {
-		
+
 		$('#section-counter').waypoint( function( direction ) {
 
 			if( direction === 'down' && !$(this.element).hasClass('ftco-animated') ) {
@@ -173,7 +236,7 @@
 					  }, 7000
 					);
 				});
-				
+
 			}
 
 		} , { offset: '95%' } );
@@ -186,7 +249,7 @@
 		$('.ftco-animate').waypoint( function( direction ) {
 
 			if( direction === 'down' && !$(this.element).hasClass('ftco-animated') ) {
-				
+
 				i++;
 
 				$(this.element).addClass('item-animate');
@@ -208,9 +271,9 @@
 							el.removeClass('item-animate');
 						},  k * 50, 'easeInOutExpo' );
 					});
-					
+
 				}, 100);
-				
+
 			}
 
 		} , { offset: '95%' } );
