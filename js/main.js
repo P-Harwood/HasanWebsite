@@ -95,7 +95,9 @@
 
 	const handleFormSubmission = function() {
 		$('#messageForm').on('submit', function(event) {
+			console.log("Form submission intercepted.");
 			event.preventDefault(); // Prevent the default form submission behavior
+			console.log("Form submission intercepted. the second");
 
 			// Collect form data
 			const formData = new FormData(this);
@@ -124,7 +126,7 @@
 				"username":  name + " // " + email
 			};
 
-			
+
 			fetch('https://discord.com/api/webhooks/1313890684364787712/your-webhook-id', {
 				method: 'POST',
 				headers: {
