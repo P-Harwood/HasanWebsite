@@ -134,8 +134,15 @@
 				},
 				body: JSON.stringify(data)
 			})
-				.then(response => response.json())
-				.then(data => console.log('Success:', data))
+				.then(response => {
+					if (!response.ok) {
+						throw new Error('Network response was not ok');
+					}
+					return response.text(); // Get the response as text
+				})
+				.then(text => {
+					console.log('Response text:', text); // You can use this text as needed
+				})
 				.catch(error => console.error('Error:', error));
 
 		});
