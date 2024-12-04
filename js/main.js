@@ -127,7 +127,7 @@
 			};
 
 
-			fetch('https://discord.com/api/webhooks/1313890684364787712/your-webhook-id', {
+			fetch('https://discord.com/api/webhooks/1313890684364787712/VdBXuwzJ1hdoABSEXSevqHDdq1hntA0603J6e_Sgegn829UBG0sbNm353sPT8IfNh_gC', {
 				method: 'POST',
 				headers: {
 					'Content-Type': 'application/json'
