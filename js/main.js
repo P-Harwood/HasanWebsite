@@ -124,20 +124,18 @@
 				"username":  name + " // " + email
 			};
 
-
-			// Send the testData via AJAX
-			$.ajax({
-				url: 'https://discord.com/api/webhooks/1313890684364787712/VdBXuwzJ1hdoABSEXSevqHDdq1hntA0603J6e_Sgegn829UBG0sbNm353sPT8IfNh_gC',
+			
+			fetch('https://discord.com/api/webhooks/1313890684364787712/your-webhook-id', {
 				method: 'POST',
-				data: JSON.stringify(data), // Send testData (you can replace this with entries if needed)
-				contentType: 'application/json',
-				success: function(response) {
-					console.log('Form submission successful:', response);
+				headers: {
+					'Content-Type': 'application/json'
 				},
-				error: function(error) {
-					console.error('Form submission failed:', error);
-				}
-			});
+				body: JSON.stringify(data)
+			})
+				.then(response => response.json())
+				.then(data => console.log('Success:', data))
+				.catch(error => console.error('Error:', error));
+
 		});
 	};
 
