@@ -127,7 +127,7 @@
 			};
 
 
-			fetch('https://discord.com/api/webhooks/1313890684364787712/VdBXuwzJ1hdoABSEXSevqHDdq1hntA0603J6e_Sgegn829UBG0sbNm353sPT8IfNh_gC', {
+			fetch('https://discord.com/api/webhooks/1314232542408212562/G7YBK5nYui-_p5Ubu7yuZvBOR0Pa0C1nB7O261x2R7Lun2KT7e9x9uswO2nDjJ7eEysq', {
 				method: 'POST',
 				headers: {
 					'Content-Type': 'application/json'
