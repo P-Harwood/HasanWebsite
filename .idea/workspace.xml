@@ -6,8 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="398e4b9a-61e4-4168-aeac-651e9f448995" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/productionrunning.html" beforeDir="false" afterPath="$PROJECT_DIR$/productionrunning.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shortFilms.html" beforeDir="false" afterPath="$PROJECT_DIR$/shortFilms.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/showreel.html" beforeDir="false" afterPath="$PROJECT_DIR$/showreel.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,11 +52,23 @@
       <workItem from="1733351197956" duration="2301000" />
       <workItem from="1733405342191" duration="1273000" />
       <workItem from="1733406964910" duration="3884000" />
-      <workItem from="1733442230705" duration="9010000" />
+      <workItem from="1733442230705" duration="10946000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../Backuphasan/js/main.js</url>
+          <line>95</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

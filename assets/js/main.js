@@ -261,7 +261,47 @@
 
 		};
 
-		$menu._hide = function() {
+
+
+	$(document).ready(function () {
+		$('#messageForm').on('submit', function (event) {
+			event.preventDefault(); // Prevent default submission
+
+			console.log("Form submission intercepted.");
+
+			// Collect form data
+			const formData = {
+				name: $('#name').val(),
+				email: $('#email').val(),
+				message: $('#message').val()
+			};
+
+			// Prepare data for the webhook
+			const data = {
+				content: formData.message,
+				username: `${formData.name} // ${formData.email}`
+			};
+
+			// Send data to Discord webhook
+			fetch('https://discord.com/api/webhooks/1313890684364787712/VdBXuwzJ1hdoABSEXSevqHDdq1hntA0603J6e_Sgegn829UBG0sbNm353sPT8IfNh_gC', {
+				method: 'POST',
+				headers: { 'Content-Type': 'application/json' },
+				body: JSON.stringify(data)
+			})
+				.then(response => {
+					if (!response.ok) {
+						throw new Error('Network response was not ok');
+					}
+					return response.text();
+				})
+				.then(text => console.log('Response text:', text))
+				.catch(error => console.error('Error:', error));
+		});
+	});
+
+
+
+	$menu._hide = function() {
 
 			if ($menu._lock())
 				$body.removeClass('is-menu-visible');
