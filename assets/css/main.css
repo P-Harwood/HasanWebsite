@@ -62,7 +62,7 @@ mark {
 
 img {
 	vertical-align: middle;
-	border-style: none; 
+	border-style: none;
 }
 
 
@@ -106,7 +106,7 @@ img {
 			margin-bottom: 5px;
 			color: antiquewhite;
 			height: 40px;
-			font-size: 18;}
+			font-size: 18px;
 		}
 		.cause-entry .text .custom-progress-success {
 		  background-color: #2A2F4A;
@@ -114,10 +114,10 @@ img {
 		  border-radius: 4px;
 		  margin-bottom: 20px; }
 		.cause-entry span.fund-raised {
-		  color: #000; 
+		  color: #000;
 		}
-	
-	  
+
+
 .row {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -125,7 +125,7 @@ img {
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
 	margin-right: -15px;
-	margin-left: -15px; 
+	margin-left: -15px;
 }
 .prodRunnerText {
     font-size: 18px;
@@ -175,7 +175,7 @@ img {
 	@media (min-width: 1200px) {
 	  .container {
 		max-width: 1140px; } }
-		
+
 
 
 .ftco-section .ftco-sub-title {
@@ -185,11 +185,11 @@ img {
 	color: #d4d4d4;
 	font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 	font-weight: 300; }
-  
+
   .ftco-section .ftco-primary-title {
 	margin-top: 0;
 	margin-bottom: 30px; }
-  
+
   .media-custom {
 	background: #fff; }
 	.media-custom .media-body .name {
@@ -200,10 +200,10 @@ img {
 	.media-custom .media-body .position {
 	  font-size: 13px;
 	  color: #d9d9d9; }
-  
+
   .about-author .desc h3 {
 	font-size: 24px; }
-  
+
   .ftco-section {
 	padding: 7em 0;
 	position: relative; }
