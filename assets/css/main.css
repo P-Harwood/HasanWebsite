@@ -60,6 +60,158 @@ mark {
 	color: inherit;
 }
 
+img {
+	vertical-align: middle;
+	border-style: none; 
+}
+
+
+
+
+.cause-entry {
+		background: #2A2F4A;
+		border: 0px solid #fafafa;
+		-webkit-box-shadow: 0px 3px 66px -24px rgba(0, 0, 0, 0.2);
+		-moz-box-shadow: 0px 3px 66px -24px rgba(0, 0, 0, 0.2);
+		box-shadow: 0px 3px 66px -24px rgba(0, 0, 0, 0.2);
+		overflow: hidden;
+		-webkit-border-radius: 4px;
+		-moz-border-radius: 4px;
+		-ms-border-radius: 4px;
+		border-radius: 4px; }
+		.cause-entry .img {
+		  display: block;
+		  height: 300px; }
+		@media (min-width: 768px) {
+		  .cause-entry .text {
+			background: #2A2F4A;
+			width: 90%;
+			margin: 0 auto; } }
+		.cause-entry .text h3 {
+			display: inline-block;
+			padding: 10px 15px; /* Padding for spacing inside the box */
+			max-width: 100%; /* Ensures the box adapts to the width of the content */
+			text-align: center; /* Centers the text */
+			word-wrap: break-word; /* Allows text to break if it’s too long */
+			height: 80px; /* Fixes the height to a maximum of 60px */
+			overflow: hidden; /* Prevents overflow if the content is too long */
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-top: 10px;
+			margin-bottom: 10px; }
+		  .cause-entry .text h3 a {
+			color: white; }
+		.cause-entry .text h4 {
+			margin-bottom: 5px;
+			color: antiquewhite;
+			height: 40px;
+			font-size: 18;}
+		}
+		.cause-entry .text .custom-progress-success {
+		  background-color: #2A2F4A;
+		  height: .3rem;
+		  border-radius: 4px;
+		  margin-bottom: 20px; }
+		.cause-entry span.fund-raised {
+		  color: #000; 
+		}
+	
+	  
+.row {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-right: -15px;
+	margin-left: -15px; 
+}
+.prodRunnerText {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+.prodRunnerTitle {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+.prodRunnerCompanyName {
+    font-size: 20px;
+    color: rgb(94, 94, 94);
+    text-align: center;
+}
+.col-md-4 {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  margin-bottom: 30px;
+  padding-right: 15px;
+  padding-left: 15px; }
+  @media (min-width: 768px) {
+	.col-md-4 {
+	  -webkit-box-flex: 0;
+	  -ms-flex: 0 0 33.33333%;
+	  flex: 0 0 33.33333%;
+	  max-width: 33.33333%; } }
+
+.container {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto; }
+	@media (min-width: 576px) {
+	  .container {
+		max-width: 540px; } }
+	@media (min-width: 768px) {
+	  .container {
+		max-width: 720px; } }
+	@media (min-width: 992px) {
+	  .container {
+		max-width: 960px; } }
+	@media (min-width: 1200px) {
+	  .container {
+		max-width: 1140px; } }
+		
+
+
+.ftco-section .ftco-sub-title {
+	font-size: 16px;
+	text-transform: uppercase;
+	letter-spacing: .5em;
+	color: #d4d4d4;
+	font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	font-weight: 300; }
+  
+  .ftco-section .ftco-primary-title {
+	margin-top: 0;
+	margin-bottom: 30px; }
+  
+  .media-custom {
+	background: #fff; }
+	.media-custom .media-body .name {
+	  font-weight: 500;
+	  font-size: 16px;
+	  margin-bottom: 0;
+	  color: #f86f2d; }
+	.media-custom .media-body .position {
+	  font-size: 13px;
+	  color: #d9d9d9; }
+  
+  .about-author .desc h3 {
+	font-size: 24px; }
+  
+  .ftco-section {
+	padding: 7em 0;
+	position: relative; }
+	@media (max-width: 767.98px) {
+	  .ftco-section {
+		padding: 6em 0; } }
+
+
 input::-moz-focus-inner {
 	border: 0;
 	padding: 0;
