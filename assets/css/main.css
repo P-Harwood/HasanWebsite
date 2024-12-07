@@ -75,13 +75,15 @@ img {
 		-moz-box-shadow: 0px 3px 66px -24px rgba(0, 0, 0, 0.2);
 		box-shadow: 0px 3px 66px -24px rgba(0, 0, 0, 0.2);
 		overflow: hidden;
+		width: 350px;
 		-webkit-border-radius: 4px;
 		-moz-border-radius: 4px;
 		-ms-border-radius: 4px;
 		border-radius: 4px; }
 		.cause-entry .img {
 		  display: block;
-		  height: 300px; }
+		  height: 300px;
+		  width: 350px}
 		@media (min-width: 768px) {
 		  .cause-entry .text {
 			background: #2A2F4A;
