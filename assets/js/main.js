@@ -268,11 +268,13 @@
 		modal.style.display = 'block';
 		overlay.style.display = 'block';
 
+		document.getElementById('messageForm').reset();
 		// Hide modal after 3 seconds
 		setTimeout(() => {
 			modal.style.display = 'none';
 			overlay.style.display = 'none';
 		}, 3000);
+
 	}
 
 
