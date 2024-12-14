@@ -261,6 +261,19 @@
 
 		};
 
+	function showModal() {
+		const modal = document.getElementById('modal');
+		const overlay = document.getElementById('overlay');
+
+		modal.style.display = 'block';
+		overlay.style.display = 'block';
+
+		// Hide modal after 3 seconds
+		setTimeout(() => {
+			modal.style.display = 'none';
+			overlay.style.display = 'none';
+		}, 3000);
+	}
 
 
 	$(document).ready(function () {
@@ -294,7 +307,10 @@
 					}
 					return response.text();
 				})
-				.then(text => console.log('Response text:', text))
+				.then(text => {
+					console.log('Response text:', text);
+					showModal(); // Corrected the syntax error
+				})
 				.catch(error => console.error('Error:', error));
 		});
 	});
