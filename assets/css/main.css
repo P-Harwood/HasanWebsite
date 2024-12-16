@@ -11,10 +11,11 @@
 
 @font-face {
 	font-family: 'futura'; /* Choose a name for the font */
-	src: url('/HasanWebsite/assets/fonts/futura light bt.ttf') format('truetype'); /* Specify the path to the TTF file */
+	src: url('https://raw.githubusercontent.com/P-Harwood/HasanWebsite/main/assets/fonts/futura.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
+
 
 
 
