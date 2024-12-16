@@ -17,6 +17,13 @@
 }
 
 
+@font-face {
+	font-family: 'futura'; /* Choose a name for the font */
+	src: url('https://raw.githubusercontent.com/P-Harwood/HasanWebsite/main/assets/fonts/futuraMedium.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
 
 
 
