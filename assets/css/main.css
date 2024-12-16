@@ -1,16 +1,17 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
 
+
 @font-face {
 	font-family: 'eagle'; /* Choose a name for the font */
-	src: url('/assets/fonts/EagleHorizonP.ttf') format('truetype'); /* Specify the path to the TTF file */
+	src: url('/HasanWebsite/assets/fonts/EagleHorizonP.ttf') format('truetype'); /* Specify the path to the TTF file */
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'futura'; /* Choose a name for the font */
-	src: url('/assets/fonts/futura light bt.ttf') format('truetype'); /* Specify the path to the TTF file */
+	src: url('/HasanWebsite/assets/fonts/futura light bt.ttf') format('truetype'); /* Specify the path to the TTF file */
 	font-weight: normal;
 	font-style: normal;
 }
