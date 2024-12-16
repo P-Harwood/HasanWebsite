@@ -25,6 +25,22 @@
 }
 
 
+@font-face {
+	font-family: 'futuraS'; /* Choose a name for the font */
+	src: url('https://raw.githubusercontent.com/P-Harwood/HasanWebsite/main/assets/fonts/FuturaStan.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'futuraB'; /* Choose a name for the font */
+	src: url('https://raw.githubusercontent.com/P-Harwood/HasanWebsite/main/assets/fonts/FuturaBold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
 
 
 html, body, div, span, applet, object,
@@ -43,20 +59,23 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	font-family: 'futura';
+	font-family: 'futuraS';
 	vertical-align: baseline;}
 
 
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6{
 	margin: 0;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	font-family: 'futuraMed';
+	font-family: 'futuraB';
 	vertical-align: baseline;}
 
 
+.boldFont{
+	font-family: futuraB;
+}
 
 
 
