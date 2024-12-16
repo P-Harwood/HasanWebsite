@@ -4,7 +4,7 @@
 
 @font-face {
 	font-family: 'eagle'; /* Choose a name for the font */
-	src: url('/HasanWebsite/assets/fonts/EagleHorizonP.ttf') format('truetype'); /* Specify the path to the TTF file */
+	src: url('https://github.com/P-Harwood/HasanWebsite/blob/main/assets/fonts/EagleHorizonP.ttf') format('truetype'); /* Specify the path to the TTF file */
 	font-weight: normal;
 	font-style: normal;
 }
