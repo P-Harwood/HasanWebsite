@@ -2711,7 +2711,11 @@ input, select, textarea {
 				border-top: 0;
 			}
 
-
+.clearfix::after {
+	content: '';
+	display: table;
+	clear: both;
+}
 
 
 .responsive-text {
@@ -3133,6 +3137,8 @@ input, select, textarea {
 				}
 
 		}
+
+
 
 /* Contact Method */
 
