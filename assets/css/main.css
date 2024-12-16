@@ -18,7 +18,7 @@
 
 
 @font-face {
-	font-family: 'futura'; /* Choose a name for the font */
+	font-family: 'futuraMed'; /* Choose a name for the font */
 	src: url('https://raw.githubusercontent.com/P-Harwood/HasanWebsite/main/assets/fonts/futuraMedium.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
@@ -45,6 +45,20 @@ section, summary, time, mark, audio, video {
 	font: inherit;
 	font-family: 'futura';
 	vertical-align: baseline;}
+
+
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	font-family: 'futuraMed';
+	vertical-align: baseline;}
+
+
+
+
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -3467,6 +3481,7 @@ input, select, textarea {
 						background-repeat: no-repeat;
 						background-size: 24px 32px;
 						content: '';
+						font-family: "futuraMed";
 						display: block;
 						height: 100%;
 						position: absolute;
