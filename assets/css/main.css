@@ -2711,6 +2711,26 @@ input, select, textarea {
 				border-top: 0;
 			}
 
+
+
+
+.responsive-text {
+	font-size: 17px;
+	text-align: center;
+}
+
+@media screen and (max-width:1000px){
+	.responsive-text {
+		font-size: 12px; /* Slightly reduce font size for 2K screens */
+	}
+}
+
+@media screen and (min-width: 2000px) {
+	.responsive-text {
+		font-size: 20px; /* Slightly reduce font size for 2K screens */
+	}
+}
+
 /* Button */
 
 	input[type="submit"],
