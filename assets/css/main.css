@@ -3774,6 +3774,7 @@ input, select, textarea {
 				#banner > .inner .content p {
 					font-size: 0.7em;
 					font-weight: 600;
+					font-family: "futuraS";
 					letter-spacing: 0.25em;
 					text-transform: uppercase;
 				}
