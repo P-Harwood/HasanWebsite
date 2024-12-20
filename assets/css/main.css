@@ -32,6 +32,13 @@
 	font-style: normal;
 }
 
+@font-face {
+	font-family: 'futuraBookItalic'; /* Choose a name for the font */
+	src: url('https://raw.githubusercontent.com/P-Harwood/HasanWebsite/main/assets/fonts/Futura_Book_Italic_font.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
 
 @font-face {
 	font-family: 'futuraB'; /* Choose a name for the font */
@@ -59,7 +66,7 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	font-family: 'futuraS';
+	font-family: 'futuraBookItalic';
 	vertical-align: baseline;}
 
 
@@ -68,7 +75,6 @@ h1, h2, h3, h4, h5, h6{
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	letter-spacing: 5px;
 	font: inherit;
 	font-family: 'futuraB';
 	vertical-align: baseline;}
@@ -3775,7 +3781,6 @@ input, select, textarea {
 				#banner > .inner .content p {
 					font-size: 0.7em;
 					font-weight: 600;
-					font-family: "futuraS";
 					letter-spacing: 0.25em;
 					text-transform: uppercase;
 				}
