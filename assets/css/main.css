@@ -39,6 +39,15 @@
 	font-style: normal;
 }
 
+@font-face {
+	font-family: 'futuraBook'; /* Choose a name for the font */
+	src: url('https://raw.githubusercontent.com/P-Harwood/HasanWebsite/main/assets/fonts/Futura_Book_font.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
 
 @font-face {
 	font-family: 'futuraB'; /* Choose a name for the font */
@@ -66,7 +75,7 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	font-family: 'futuraBookItalic';
+	font-family: 'futuraBook';
 	vertical-align: baseline;}
 
 

@@ -7,7 +7,6 @@
     <list default="true" id="398e4b9a-61e4-4168-aeac-651e9f448995" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Futura Book Italic font.ttf" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +56,7 @@
       <workItem from="1734343806420" duration="8598000" />
       <workItem from="1734369109928" duration="2755000" />
       <workItem from="1734386561540" duration="614000" />
-      <workItem from="1734707972288" duration="576000" />
+      <workItem from="1734707972288" duration="721000" />
     </task>
     <servers />
   </component>
