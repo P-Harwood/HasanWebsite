@@ -2790,7 +2790,7 @@ input, select, textarea {
 
 .responsive-text {
 	font-size: 17px;
-	text-align: center;
+	text-align: justify;
 }
 
 @media screen and (max-width:1000px){
@@ -3207,6 +3207,19 @@ input, select, textarea {
 				}
 
 		}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
