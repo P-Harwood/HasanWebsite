@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="398e4b9a-61e4-4168-aeac-651e9f448995" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Films.html" beforeDir="false" afterPath="$PROJECT_DIR$/Films.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +57,7 @@
       <workItem from="1734369109928" duration="2755000" />
       <workItem from="1734386561540" duration="614000" />
       <workItem from="1734707972288" duration="1612000" />
+      <workItem from="1734790520491" duration="83000" />
     </task>
     <servers />
   </component>
@@ -67,7 +68,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/../Backuphasan/js/main.js</url>
+          <url>file://$PROJECT_DIR$/../backupHasan/js/main.js</url>
           <line>95</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
