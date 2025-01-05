@@ -110,11 +110,12 @@
 			$body.addClass('is-ie');
 
 	// Scrolly.
-		$('.scrolly').scrolly({
-			offset: function() {
-				return $header.height() - 2;
-			}
-		});
+	$('.scrolly').on('click', function(e) {
+		e.preventDefault(); // Prevent default link behavior
+		$('html, body').animate({
+			scrollTop: $(document).height() - $(window).height() // Scroll to the bottom
+		}, 1000); // Smooth scrolling for 1 second
+	});
 
 	// Tiles.
 		var $tiles = $('.tiles > article');
