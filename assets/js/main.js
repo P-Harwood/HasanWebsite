@@ -113,7 +113,7 @@
 	$('.scrolly').on('click', function(e) {
 		e.preventDefault(); // Prevent default link behavior
 		$('html, body').animate({
-			scrollTop: $(document).height() - $(window).height() // Scroll to the bottom
+			scrollTop: $(document).height() // Scroll to the bottom
 		}, 1000); // Smooth scrolling for 1 second
 	});
 
